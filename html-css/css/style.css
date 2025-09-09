@@ -1,0 +1,80 @@
+/*見出し設定*/
+.grid-headline {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    background-color: #F5F2E7; /* ページ全体の背景色 */
+  }
+
+
+
+
+/*共通設定*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;  /*アイテム同士の隙間を10pxにする*/
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+
+/* 箱の設定 */
+.grid-item {
+    display: flex;
+    
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    aspect-ratio: 1/1;  /*正方形にする*/
+}
+
+
+/* 4x4の設定 */
+.grid-4x4 {
+    max-width: 50%; /* 画面幅いっぱいではなく固定幅にする */
+    margin: 0 auto;   /* 中央揃え */
+}
+.grid-4x4 .grid-item {
+    flex: 1 0 calc(25% - 50px);
+    font-size: 100px;
+    background-color: #2F5D62;
+    color: #FFFFFF;
+    border: 3px ;
+}
+
+/* 2x2の設定 */
+.grid-2x2 {
+    width: 50%;
+    margin: 0 auto;
+
+}
+.grid-2x2 .grid-item {
+    flex: 1 0 calc(50% - 50px);
+    font-size: 200px;
+    background-color: #88B04B;
+    color: #000000;
+    border: 3px ;
+}
+
+/* 6x1の設定 */
+.grid-6x1 {
+    width: 50%;
+    margin: 0 auto;
+}
+.grid-6x1 .grid-item {
+    flex: 1 0 calc(16% - 50px);
+    font-size: 100px;
+    background-color: #5C9E8F;
+    color: #FFFFFF;
+    border: 3px ;
+}
+
+
+
