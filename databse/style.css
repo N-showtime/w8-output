@@ -1,0 +1,43 @@
+body {
+    background-color: #333631;
+    margin-left: 50px;
+}
+
+.headerline {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.form {
+    color: #ffffff;
+}
+
+.form-a {
+    margin-bottom: 20px;
+}
+
+.form-length {
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+
+}
+
+
+.mess {
+    color: #ffffff;
+}
+
+.mess-a {
+    text-decoration: none;
+}
+
+.form-button {
+    background-color: blue;
+    color: #ffffff;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+}
