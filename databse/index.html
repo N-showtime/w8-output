@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+
+    <link rel="stylesheet" href="./sanitize.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="headerline">Sign in to your account</h1>
+
+    <div>
+        <form action="/login" method="post" class="form">
+            <div class="form-a">
+                <label for="email">Your email</label> <br>
+                <input type="email" id="email" name="email" class="form-length" required>
+            </div>
+
+            <div class="form-a">
+                <label for="password">Password</label> <br>
+                <input type="password" id="password" name="password" class="form-length" required>
+            </div>
+
+            <div>
+                <button type="submit" class="form-button form-a">Sign in</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="mess">
+        Don't have an account yet? <a href="signup.html" class="mess-a" >Sign up</a>
+    </div>
+</body>
+</html>
